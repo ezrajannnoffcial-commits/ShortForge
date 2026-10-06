@@ -1,0 +1,130 @@
+[
+  {
+    "id": "gemini-llm",
+    "category": "llm",
+    "name": "Gemini 3.8 Flash (Server-Side)",
+    "enabled": true,
+    "priority": 1,
+    "modelId": "gemini-3.8-flash",
+    "isSystemProvider": true
+  },
+  {
+    "id": "hf-llama-llm",
+    "category": "llm",
+    "name": "Llama 3.3 70B (Hugging Face / Open Source)",
+    "enabled": true,
+    "priority": 2,
+    "modelId": "meta-llama/Llama-3.3-70B-Instruct",
+    "endpoint": "https://api-inference.huggingface.co/models/meta-llama/Llama-3.3-70B-Instruct"
+  },
+  {
+    "id": "gemini-tts",
+    "category": "tts",
+    "name": "Gemini 3.8 Flash Lite TTS",
+    "enabled": true,
+    "priority": 1,
+    "modelId": "gemini-3.8-flash-lite-tts",
+    "isSystemProvider": true
+  },
+  {
+    "id": "free-tts",
+    "category": "tts",
+    "name": "Free Multi-Lingual Speech Synthesizer",
+    "enabled": true,
+    "priority": 2,
+    "modelId": "neural-tts-open",
+    "isSystemProvider": true
+  },
+  {
+    "id": "piper-tts",
+    "category": "tts",
+    "name": "Piper / Coqui Local TTS",
+    "enabled": false,
+    "priority": 3,
+    "endpoint": "http://localhost:5000/api/tts",
+    "modelId": "en_US-lessac-medium"
+  },
+  {
+    "id": "gemini-transcribe",
+    "category": "transcription",
+    "name": "Gemini 3.5 Transcribe (Timestamped)",
+    "enabled": true,
+    "priority": 1,
+    "modelId": "gemini-3.5-transcribe",
+    "isSystemProvider": true
+  },
+  {
+    "id": "whisper-local",
+    "category": "transcription",
+    "name": "Whisper Local / Remote Endpoint",
+    "enabled": false,
+    "priority": 2,
+    "endpoint": "http://localhost:9000/asr"
+  },
+  {
+    "id": "free-flux-image",
+    "category": "image",
+    "name": "FLUX.1 Open Source (Free / Serverless)",
+    "enabled": true,
+    "priority": 1,
+    "modelId": "black-forest-labs/FLUX.1-schnell",
+    "endpoint": "https://image.pollinations.ai/prompt",
+    "isSystemProvider": true
+  },
+  {
+    "id": "huggingface-image",
+    "category": "image",
+    "name": "Hugging Face FLUX.1 / SDXL",
+    "enabled": true,
+    "priority": 2,
+    "endpoint": "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-schnell"
+  },
+  {
+    "id": "gemini-image",
+    "category": "image",
+    "name": "Gemini Flash Image Generator",
+    "enabled": true,
+    "priority": 3,
+    "modelId": "gemini-3.1-flash-lite-image",
+    "isSystemProvider": true
+  },
+  {
+    "id": "comfyui-image",
+    "category": "image",
+    "name": "ComfyUI Local Image Generator",
+    "enabled": false,
+    "priority": 4,
+    "endpoint": "http://localhost:8188",
+    "modelId": "sdxl_turbo"
+  },
+  {
+    "id": "veo-video",
+    "category": "video",
+    "name": "Veo 3.1 Lite Video (Google GenAI)",
+    "enabled": false,
+    "priority": 1,
+    "modelId": "veo-3.1-lite-generate-preview",
+    "isSystemProvider": true
+  },
+  {
+    "id": "comfyui-video",
+    "category": "video",
+    "name": "ComfyUI Local Video Generator",
+    "enabled": false,
+    "priority": 2,
+    "endpoint": "http://localhost:8188",
+    "modelId": "wan2.1-t2v"
+  },
+  {
+    "id": "ffmpeg-renderer",
+    "category": "renderer",
+    "name": "Native System FFmpeg (Ken Burns & 1080x1920 MP4)",
+    "enabled": true,
+    "priority": 1,
+    "isSystemProvider": true,
+    "options": {
+      "binaryPath": "/usr/bin/ffmpeg",
+      "defaultFps": 30
+    }
+  }
+]

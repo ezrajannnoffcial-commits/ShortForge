@@ -1,0 +1,74 @@
+[
+  {
+    "id": "proj_1791219325895_34dadadb",
+    "title": "The World's Smallest Country",
+    "topic": "The world's smallest country",
+    "description": "",
+    "targetDuration": 15,
+    "language": "English",
+    "contentType": "facts",
+    "visualStyle": "cinematic",
+    "customStylePrompt": "",
+    "voiceGender": "female",
+    "voiceName": "Kore",
+    "hook": "",
+    "fullScript": "",
+    "scenes": [
+      {
+        "id": "scene_1",
+        "number": 1,
+        "narration": "This entire country fits inside a single city block.",
+        "visualPrompt": "Aerial drone zoom down onto the dense, walled architecture of Vatican City at golden hour.",
+        "duration": 4,
+        "visualType": "video"
+      },
+      {
+        "id": "scene_2",
+        "number": 2,
+        "narration": "Vatican City is less than half a square kilometer in size.",
+        "visualPrompt": "Slow cinematic push-in on a detailed, antique-style topographical map showing the tiny borders of the Vatican.",
+        "duration": 5,
+        "visualType": "image"
+      },
+      {
+        "id": "scene_3",
+        "number": 3,
+        "narration": "Despite its tiny footprint, it remains the absolute center of the entire Catholic world.",
+        "visualPrompt": "Low angle tracking shot looking up at the grand dome of St. Peter's Basilica with soft sunlight flare.",
+        "duration": 6,
+        "visualType": "video"
+      }
+    ],
+    "captionStyle": {
+      "fontFamily": "Impact",
+      "fontSize": 54,
+      "textColor": "#FFFFFF",
+      "highlightColor": "#FACC15",
+      "outlineColor": "#000000",
+      "outlineWidth": 4,
+      "position": "bottom",
+      "yPercent": 80,
+      "animation": "word-highlight",
+      "uppercase": true,
+      "boxBackground": false,
+      "boxColor": "#000000"
+    },
+    "voiceVolume": 1,
+    "musicVolume": 0.15,
+    "renderSettings": {
+      "resolution": "1080x1920",
+      "fps": 30,
+      "videoCodec": "libx264",
+      "audioCodec": "aac",
+      "crf": 20,
+      "burnCaptions": true,
+      "transition": "none",
+      "transitionDuration": 0.3
+    },
+    "status": "completed",
+    "createdAt": "2026-10-05T16:55:25.895Z",
+    "updatedAt": "2026-10-05T16:55:56.569Z",
+    "finalVideoUrl": "/api/renders/render_1791219346334.mp4",
+    "finalVideoAssetId": "render_1791219346334"
+  }
+]

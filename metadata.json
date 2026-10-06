@@ -1,0 +1,8 @@
+{
+  "name": "ShortForge AI",
+  "description": "Production-grade AI YouTube Shorts generator that turns any idea into complete 9:16 vertical videos with Gemini scripts, scene visuals, voice narration, synced captions, and FFmpeg rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
